@@ -21,14 +21,6 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint",
-    "prettier"
-  ],
-  "ignorePatterns": [
-    "next.config.js",
-    "global.d.ts",
-    "next-env.d.ts"
-  ]
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "ignorePatterns": ["next.config.js", "global.d.ts", "next-env.d.ts"]
 }
